@@ -42,7 +42,7 @@ A basic calculator that performs arithmetic operations like addition, subtractio
 Technologies Used:
 HTML, CSS, JavaScript
 Live Demo:
-🔗 Live Demo: [https://your-live-link-here](mycalcy123.netlify.app)
+🔗 Live Demo: [https://your-live-link-here](https://mycalcy123.netlify.app)
 
 
 💡 Purpose of These Projects
