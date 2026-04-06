@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+
+<body>
+    <!-- <=== sidebar ===>  -->
+
+    <div class="mobile-header">
+        <span class="logo">Company Name</span>
+        <span class="hamburger" onclick="toggleMenu()">☰</span>
+    </div>
+
+
+    <div class="sidebar">
+        <div class="navbar">
+            <div class="navigation_items">
+                <h3><b>Company<br>Name</b></h3>
+                <div class="navigation_links">
+                    <a href="#Home">Home</a>
+                    <a href="#Showcase">Showcase</a>
+                    <a href="#Services">Services</a>
+                    <a href="#Designers">Designers</a>
+                    <a href="#Packages">Packages</a>
+                    <a href="#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <=== Main page Content ===> -->
+
+    <div class="main_container">
+        <div class="page_heading">
+            <h1 id="Home">Interior Design</h1>
+            <h2 class="Showcase" id="Showcase">Showcase.</h2>
+            <div class="line"></div>
+        </div>
+
+        <!-- <=== Photo section ===> -->
+
+        <section class="photo_grid1">
+            <div class="picture1">
+                <img src="./assets/images/kitchenconcrete.jpg" alt="kitchenconcrete" width="100%" height="100%">
+            </div>
+            <div class="picture1">
+                <img src="./assets/images/atrium.jpg" alt="atrium" width="100%" height="100%">
+            </div>
+        </section>
+        <section class="photo_grid2">
+            <div class="picture2">
+                <img src="./assets/images/livingroom.jpg" alt="livingroom" width="100%" height="100%">
+            </div>
+            <div class="picture2" id="picture2">
+                <img src="./assets/images/bedroom.jpg" alt="bedroom" width="100%" height="100%">
+            </div>
+        </section>
+        <section class="photo_grid2">
+            <div class="picture2">
+                <img src="./assets/images/diningroom.jpg" alt="diningroom" width="100%" height="100%">
+            </div>
+            <div class="picture2" id="picture2">
+                <img src="./assets/images/livingroom2.jpg" alt="livingroom2" width="100%" height="100%">
+            </div>
+        </section>
+
+        <!-- <=== Service Section ===> -->
+
+        <section>
+            <div class="services_section" id="Services">
+                <h2 class="title_services">Services.</h2>
+                <div class="line"></div>
+                <p class="service_para">We are a interior design service that focus on what's best for your home and
+                    what's best for you!</p>
+                <p class="service_para">Some text about our services - what we do and what we offer. We are lorem ipsum
+                    consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+
+            </div>
+        </section>
+
+        <!-- <=== Designers Section ===> -->
+
+        <section>
+            <div class="designers_section" id="Designers">
+                <h2 class="title_designers">Designers.</h2>
+                <div class="line"></div>
+                <p class="designers_para">The best team in the world.</p>
+                <p class="designers_para">We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+        <section class="designers">
+            <p class="designers_line1">Our designers are thoughtfully chosen:</p>
+            <div class="designers_card">
+                <div class="card">
+                    <img class="designers_image" src="./assets/images/team2.jpg" alt="team2" width="100%"
+                        height="250px">
+                    <div class="card_details">
+                        <h3>John Doe</h3>
+                        <p class="founder">CEO & Founder</p>
+                        <p class="founder_details">Phasellus eget enim eu lectus faucibus<br> vestibulum. Suspendisse
+                            sodales <br> pellentesque elementum.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="designers_image" src="./assets/images/team1.jpg" alt="team1" width="100%"
+                        height="250px">
+                    <div class="card_details">
+                        <h3>Jane Doe</h3>
+                        <p class="founder">Designer</p>
+                        <p class="founder_details">Phasellus eget enim eu lectus faucibus <br>vestibulum. Suspendisse
+                            sodales <br>pellentesque elementum.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="designers_image" src="./assets/images/team3.jpg" alt="team3" width="100%"
+                        height="250px">
+                    <div class="card_details">
+                        <h3>Mike Ross</h3>
+                        <p class="founder">Architect</p>
+                        <p class="founder_details">Phasellus eget enim eu lectus faucibus <br> vestibulum. Suspendisse
+                            sodales <br> brpellentesque elementum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <=== Packages Section ===> -->
+
+        <section>
+            <div class="packages_section" id="Packages">
+                <h2 class="title_packages">Packages.</h2>
+                <div class="line"></div>
+                <p class="Packages_para">Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+            </div>
+
+            <div class="comparision">
+                <ul class="basic">
+                    <li>Basic</li>
+                    <li class="basic-details">Floorplanning</li>
+                    <li class="basic-details">10 hours support</li>
+                    <li class="basic-details">Photography</li>
+                    <li class="basic-details">20% furniture discount</li>
+                    <li class="basic-details">Good deals</li>
+                    <li class="rate">
+                        <h2> $ 199</h2> <br><span>per room </span>
+                    </li>
+                    <li><button type="button" class="signup">SignUp</button></li>
+                </ul>
+                <ul class="pro">
+                    <li>Pro</li>
+                    <li class="pro-details">Floorplanning</li>
+                    <li class="pro-details">50 hours support</li>
+                    <li class="pro-details">Photography</li>
+                    <li class="pro-details">50% furniture discount</li>
+                    <li class="pro-details">GREAT deals</li>
+                    <li class="rate">
+                        <h2>$ 249</h2> <br><span> per room </span>
+                    </li>
+                    <li><button type="button" class="signup2">Sign Up</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- <=== Contact Form Section ===> -->
+
+        <section>
+            <div class="contact_section" id="Contact">
+                <h2 class="title_contact">Contact.</h2>
+                <div class="line"></div>
+                <p class="contact_para">Do you want us to style your home? Fill out the form and fill me in with the
+                    details :) We love
+                    meeting new people!</p>
+                <form action="" class="contact_form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required pattern="[A-Z , a-z ]+ " minlength="3"
+                        maxlength="30">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="meassage">Message</label>
+                    <textarea name="meassage" id="meassage" cols="50" rows="3" minlength="10" maxlength="500" required>
+                    </textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- <=== Bottom ===> -->
+
+    <div class="bottom">
+        <p>Powered by <a href="#w3css"> w3.css</a></p>
+    </div>
+
+
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".navigation_links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
